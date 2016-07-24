@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<title>Mission statement generator</title>
+	
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8"></meta>
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=8;IE=9"></meta>
+	
+	<!-- Load jquery and jqueryui libraries -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+	
+	<!-- Load css file for theme -->
+	<link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/themes/ui-darkness/jquery-ui.css"></script>
+	
+	<script type="text/javascript" src="mission.js"></script>
+
+	<style type="text/css">
+		#out h3 {
+			margin: 0;
+		}
+		#out, #out h3 {
+			padding: 0.4em;
+		}
+		#tabs {
+			margin-top: 0.5em;
+		}
+		#tabs textarea {
+			width: 100%;
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<div id="out" class="ui-widget ui-widget-content ui-corner-all">
+		<h3 class="ui-widget-header ui-corner-all">Mission Statement Generator</h3>
+		<p id="output"></p>
+		<button id="generate">Generate</button>
+	</div>
+
+	<div id="tabs">
+		<ul>
+			<li><a href="#tabs-1">Adverbs</a></li>
+			<li><a href="#tabs-2">Verbs</a></li>
+			<li><a href="#tabs-3">Adjectives</a></li>
+			<li><a href="#tabs-4">Nouns</a></li>
+		</ul>
+		<div id="tabs-1">
+			<textarea id="adverbs" cols="1000" rows="10">assertively, authoritatively, collaboratively, competently, completely, continually, conveniently, dramatically, efficiently, enthusiastically, globally, interactively, proactively, professionally, quickly, seamlessly, synergistically</textarea>
+		</div>
+		<div id="tabs-2">
+			<textarea id="verbs" cols="1000" rows="10">administrate, build, coordinate, create, customize, disseminate, engineer, enhance, embrace, facilitate, fashion, foster, initiate, integrate, leverage, leverage others', leverage existing, maintain, monetize, morph, negotiate, network, operationalize, optimize, orchestrate, productize, promote, provide access to, pursue, recontextualise, restore, revolutionize, simplify, synergize, synthesize, supply, utilize</textarea>
+		</div>
+		<div id="tabs-3">
+			<textarea id="adjectives" cols="1000" rows="10">best-of-breed, best practice, business, competitive, corporate, cost effective, cutting-edge, diverse, e-business, e-commerce, e-markets, e-services, e-tailers, economically sound, effective, emerging, enterprise, enterprise-wide, error-free, ethical, excellent, extensible, high standards in, high-payoff, high-quality, holistic, inexpensive, innovative, interdependent, leading-edge, long-term high-impact, low-risk high-yield, market-driven, mission-critical, multimedia based, next-generation, outcome-driven, parallel, performance based, paradigm-shift, principle-centered, professional, progressive, prospective, quality, resource-leveling, revolutionary, scalable, seven-habits-conforming, timely, unique, user-centric, value-added, viral, virtual, web 2.0, web 3.0, world-class</textarea>
+		</div>
+		<div id="tabs-4">
+			<textarea id="nouns" cols="1000" rows="10">benefits, catalysts for change, content, data, deliverables, information, infrastructures,  intellectual capital, leadership skills, materials, meta-services, methods, methods of empowerment, mindshare, opportunities, paradigms, products, resources, services, solutions, sources, technology</textarea>
+		</div>		
+	</div>
+	
+	<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+		try { 
+			var pageTracker = _gat._getTracker("UA-3553025-4");
+			pageTracker._trackPageview();
+		} catch(err) {} 
+	</script>
+</body>
+</html>
